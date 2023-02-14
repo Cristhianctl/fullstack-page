@@ -1,10 +1,9 @@
+import Hero from "~/components/Hero";
+
 export default function Index() {
   return (
-    <>
-      <h1>
-        Mi Pagina web
-      </h1>
-      <h2>Todo listo para contruir mi pagina</h2>
-    </>
+    <main className="max-w-[720px] mx-auto py-20">
+      <Hero />
+    </main>
   );
 }
